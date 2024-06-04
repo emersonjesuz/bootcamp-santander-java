@@ -25,13 +25,13 @@ public class Pessoa implements Comparable<Pessoa> {
     public int compareTo(Pessoa p) {
         if (p == null)
             return 1;
-        int comparacao = 0;
+
         if (this.idade > p.idade)
             return 1;
 
         if (this.idade < p.idade)
             return -1;
-        return comparacao;
+        return 0;
     }
 
     @Override
