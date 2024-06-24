@@ -1,0 +1,4 @@
+mvn compile  => compila todos os arquivos javas
+mvn test => testa a aplicação
+mvn package => ele criar um jar 
+mvn clear limpar a pasta target        

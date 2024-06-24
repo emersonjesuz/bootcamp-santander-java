@@ -29,7 +29,7 @@ public class ConsumerExemplo {
         // }
         // });
 
-        numeros.stream().forEach(t -> {
+        numeros.stream().forEach((t) -> {
             if (t % 2 == 0) {
                 System.out.println(t);
             }
